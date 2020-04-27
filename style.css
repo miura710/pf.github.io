@@ -603,16 +603,6 @@ section{
 .service .card:nth-child(3){
   transition-delay: .4s;
 }
-.img{
-  position: absolute;
-  top:-4px;
-  left:5%;
-  background: url(../images/b_ornament_30_1L.png);
-  width:90%;
-  height:32px;
-  background-repeat: repeat;
-  background-position: 44px 0;
-}
 .works-wrap{
   background-color: rgba(233,233,233,.7);
   position: relative;
