@@ -1,0 +1,196 @@
+@media screen and (max-width:992px){
+  .header{
+    height:80px;
+    line-height:80px;
+  }
+  .header img{
+    width:40px;
+    height:40px;
+  }
+  .header .first-title{
+    font-size:16px;
+  }
+  .menu{
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    z-index: 9999;
+  }
+  .menu__line{
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+  }
+  .menu__line--center{
+    top: 9px;
+  }
+  .menu__line--bottom{
+    bottom: 0;
+  }
+  .menu__line--top.active{
+    top: 8px;
+    transform: rotate(45deg);
+  }
+  .menu__line--center.active{
+    transform:scaleX(0);
+  }
+  .menu__line--bottom.active{
+    bottom: 10px;
+    transform: rotate(135deg);
+  }
+  .gnav{
+      background: rgba(0,0,0,0.8);
+      display: none;
+      height: 100vh;
+      position: fixed;
+      width: 100%;
+      z-index: 9998;
+  }
+  .gnav__wrap{
+        align-items:center;
+        display: flex;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+  }
+  .gnav__menu{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .gnav__menu__item{
+      width:100%;
+      margin: 0 0 
+      0 100px;
+      opacity: 0;
+  }
+  .header-navi ul li a{
+      color:#eee;
+      font-size: 2em;
+      font-weight: bold;
+      transition: .5s;
+  }
+  .br1{
+    display: block;
+  }
+  .maintitle{
+    line-height: 10vw;
+  }
+  #ityped{
+    line-height:84vw;
+    font-size:36px;
+  }
+  .wave{
+    top:-6%;
+  }
+  .arc{
+    height:1060px;
+  }
+  .about-wrap{
+    height:760px;
+    width:80%;
+  }
+  .about .inner{
+    display:block;
+  }
+  .about .inner{
+    margin-top: 36px;
+    padding-left: 0;
+  }
+  .about img{
+    margin-bottom: 36px;
+  }
+  .about .text{
+    margin: auto;
+  }
+  .skill{
+    height:1060px;
+  }
+  .skill-wrap{
+    width:80%;
+  }
+  .skill .card{
+    width:44%;
+  }
+  .skill .card:nth-child(3){
+    transition-delay: 0s;
+  }
+  .skill .card:nth-child(5){
+    transition-delay: 0s;
+  }
+  .skill .card:nth-child(2){
+    transition-delay: .2s;
+  }
+  .skill .card:nth-child(4){
+    transition-delay: .2s;
+  }
+  .skill .card:nth-child(6){
+    transition-delay: .2s;
+  }
+  .servce .cards{
+    display:block;
+  }
+  .service .card{
+    width:80%;
+    margin-bottom: 48px;
+  }
+  .service-wrap{
+    height:1160px;
+  }
+  .skill .inner{
+    padding-bottom: 60px;
+  }
+  .service .card{
+    width:90%;
+  }
+} 
+@media screen and (max-width:767px){
+  #ityped{
+    line-height: 720px;
+    font-size:28px;
+  }
+  .ityped-cursor{
+    font-size:32px;
+  }
+  .skill{
+    height:660px;
+  }
+  .skill .card{
+    height:120px;
+    margin-top: 36px;
+  }
+  .skill .card i{
+    font-size:48px;
+  }
+  .contact .cards{
+    display:block;
+  }
+  .contact .item{
+    width:90%;
+    margin: auto;
+    margin-bottom: 36px;
+  }
+  .br2{
+    display:block;
+  }
+  .contact{
+    height:1100px;
+  }
+  .contact .intro {
+    line-height: 1.5;
+  }
+  #page-top{
+    right:4px;
+    bottom:20px;
+  }
+}
